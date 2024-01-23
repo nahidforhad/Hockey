@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Mulish:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1c2bceaaf.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -29,7 +30,7 @@
                     <li><a class=" hover:text-red-500">Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost uppercase text-5xl font-extrabold">Hockey<span class="text-orange-500">'</span>s</a>
+              <a class="btn btn-ghost uppercase text-4xl lg:text-5xl font-extrabold">Hockey<span class="text-orange-500">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -42,11 +43,11 @@
             </div>
             <div class="navbar-end gap-5">
                <div class="ml-10"> <img class="hidden lg:flex  lg:h-6 lg:w-6" src="Images/search.png" alt=""></div>
-              <a class=" btn btn-error text-2xl text-white font-bold">Get Ticket</a>
+              <a class=" btn btn-error text-xl lg:text-2xl text-white font-bold">Get Ticket</a>
             </div>
         </div>
         <!--Banner-->
-        <div class="carousel w-full h-[550px]">
+        <div class="carousel w-full lg:h-[550px] relative">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -56,15 +57,203 @@
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
               <img src="Images/3.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <div class="absolute flex justify-between transform translate-y-1/4 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
             </div>
+            <div class="lg:flex lg:absolute lg:bg-black lg:text-white lg:translate-x-[752px] lg:translate-y-[330px] lg:w-[500px] lg:p-8 lg:rounded-2xl">
+             <div>
+               <h3 class="text-2xl font-bold">Welcome to the Champion Leauge of Hockey</h3><br>
+              <p class="text-gray-500">Want to join a Fanclab?. Or you can find all the lastest updates and news of your favourite team or player here.</p></div>
+            </div>
           </div>
     </header>
-    <main>
-
+      <div class="container mx-auto bg-black text-white rounded-2xl md:hidden lg:hidden mt-5 p-5 shadow-lg">
+        <h3 class="text-2xl font-bold">Welcome to the Champion Leauge of Hockey</h3><br>
+        <p class="text-gray-500">Want to join a Fanclab?. Or you can find all the lastest updates and news of your favourite team or player here.</p></div>
+      </div>
+    <main class="container mx-auto">
+      <!--Percent Card-->
+      <section class="mt-16">
+       <div class="text-center space-y-3"> 
+        <h3 class="text-3xl lg:text-4xl font-extrabold">Professional Hockeys Club</h3>
+        <p class="text-[#11111663] p-10">If you want to learn and play hockey, Our club is the best option for you. The performance rate of the club is extremley high. You can be the next star.</p>
+       </div>
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+        <!--Card-1-->
+        <div class="card bg-base-100">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-red-500" style="--value:70;" role="progressbar">87%</div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title font-semibold text-2xl">Prayer Facility</h2>
+            <p class="text-[#11111663]">We encourage player on their sprituality. So that they can have a healthy mind.</p>
+          </div>
+        </div>
+        <!--Card-2-->
+        <div class="card bg-base-100">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-green-500" style="--value:70;" role="progressbar">95%</div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title font-semibold text-2xl">Experienced Coach</h2>
+            <p class="text-[#11111663]">We will train you with exprienced coach. The couch will gide you.</p>
+          </div>
+        </div>
+         <!--Card-3-->
+         <div class="card bg-base-100">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-blue-500" style="--value:70;" role="progressbar">90%</div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title font-semibold text-2xl">Senior Player</h2>
+            <p class="text-[#11111663]">You can also take advice from our senior player. We have a help center</p>
+          </div>
+        </div>
+         <!--card-4-->
+         <div class="card bg-base-100">
+          <figure class="px-10 pt-10">
+            <div class="radial-progress text-yellow-500" style="--value:70;" role="progressbar">88%</div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title font-semibold text-2xl">Training Ground</h2>
+            <p class="text-[#11111663]">We provide one of the best training ground. You can exprince real match expriences.</p>
+          </div>
+        </div>
+         <!--Card end-->
+       </div>
+      </section>
+      <section class="mt-16">
+        <div class="text-center space-y-3">
+          <h3 class="font-extrabold text-4xl lg:text-5xl">Program Sections</h3>
+          <p class="text-[#11111663] p-10">We arrange different tournament for different section. The performance rate of the club is extremley high. You can be the next star.</p>
+        </div>
+        <br>
+        <div class="grid items-center justify-center">
+          <div class="grid grid-cols-1 gap-y-7">
+            <div class="flex flex-col gap-7 lg:flex-row">
+              <div>
+                <div class="card bg-[#13131880] shadow-xl image-full">
+                  <figure><img src="Images/2.png" class="lg:w-[600px]" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title mt-24 font-bold text-4xl">Junior Program</h2> <br>
+                    <p class="">Skate, pass, score—hockey's thrilling lore! Juniors on ice, teamwork's advice.</p>
+                    <div class="card-actions justify-start">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card bg-[#13131880] shadow-xl image-full">
+                  <figure><img src="Images/3.png" class="lg:w-[600px]" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title  mt-24 font-bold text-4xl">Teenager Program</h2><br>
+                    <p class="">Skate, pass, score—hockey's thrilling lore! Teenager on ice, teamwork's advice.</p>
+                    <div class="card-actions justify-start">
+                      <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div>
+            <div class="card bg-[#13131880] image-full lg:w-[1250px]">
+              <figure><img src="Images/4.png" class="lg:w-[1300px]" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title mt-24  lg:mt-48 font-bold text-4xl">Professional Program</h2><br>
+                <p class="">Skate, pass, score—hockey's thrilling lore! professional on ice, teamwork's advice<br class="hidden lg:flex">Skate, pass, score—hockey's thrilling lore! Professional on ice, teamwork's advice.<br>Skate, pass, score—hockey's thrilling lore! Professional on ice, teamwork's advice.</p>
+                <div class="card-actions justify-start">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="mt-16">
+        <div class="text-center space-y-3"> 
+          <h3 class="text-3xl lg:text-4xl font-extrabold">Our New Products</h3>
+          <p class="text-[#11111663] p-10">If you want to learn and play hockey, Our club is the best option for you. The performance rate of the club is extremley high. You can be the next star.</p>
+         </div>
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!--one-->
+          <div class="hero bg-white">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <p class="text-gray-500 space-x-2"><i class="fa-regular fa-star text-orange-500"></i> 5.0 <i class="fa-regular fa-eye"></i> 512 <i class="fa-regular fa-heart"></i> 22</p>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-[#11111663]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="font-semibold text-red-600">Price - $22.00  <br class="lg:hidden"> <span class="text-gray-500 font-light"><i class="fa-solid fa-music lg:ml-14"></i> Delivery Fee : Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!--one-->
+          <div class="hero bg-white">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <p class="text-gray-500 space-x-2"><i class="fa-regular fa-star text-orange-500"></i> 5.0 <i class="fa-regular fa-eye"></i> 512 <i class="fa-regular fa-heart"></i> 22</p>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-[#11111663]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="font-semibold text-red-600">Price - $22.00  <br class="lg:hidden"> <span class="text-gray-500 font-light"><i class="fa-solid fa-music lg:ml-14"></i> Delivery Fee : Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!--one-->
+          <div class="hero bg-white">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <p class="text-gray-500 space-x-2"><i class="fa-regular fa-star text-orange-500"></i> 5.0 <i class="fa-regular fa-eye"></i> 512 <i class="fa-regular fa-heart"></i> 22</p>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-[#11111663]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="font-semibold text-red-600">Price - $23.00  <br class="lg:hidden"> <span class="text-gray-500 font-light"><i class="fa-solid fa-music lg:ml-14"></i> Delivery Fee : Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!--one-->
+          <div class="hero bg-white">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <p class="text-gray-500 space-x-2"><i class="fa-regular fa-star text-orange-500"></i> 5.0 <i class="fa-regular fa-eye"></i> 512 <i class="fa-regular fa-heart"></i> 22</p>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-[#11111663]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="font-semibold text-red-600">Price - $56.00<br class="lg:hidden"> <span class="text-gray-500 font-light"><i class="fa-solid fa-music lg:ml-14"></i> Delivery Fee : Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!--one-->
+          <div class="hero bg-white">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <p class="text-gray-500 space-x-2"><i class="fa-regular fa-star text-orange-500"></i> 5.0 <i class="fa-regular fa-eye"></i> 512 <i class="fa-regular fa-heart"></i> 22</p>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-[#11111663]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="font-semibold text-red-600">Price - $89.00  <br class="lg:hidden"> <span class="text-gray-500 font-light"><i class="fa-solid fa-music lg:ml-14"></i> Delivery Fee : Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!--one-->
+          <div class="hero bg-white">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <p class="text-gray-500 space-x-2"><i class="fa-regular fa-star text-orange-500"></i> 5.0 <i class="fa-regular fa-eye"></i> 512 <i class="fa-regular fa-heart"></i> 22</p>
+                <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-[#11111663]">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p class="font-semibold text-red-600">Price - $42.00 <br class="lg:hidden"> <span class="text-gray-500 font-light"><i class="fa-solid fa-music lg:ml-14"></i> Delivery Fee : Free</span></p>
+              </div>
+            </div>
+          </div>
+          <!--one-->
+         </div>
+      </section>
     </main>
     <footer>
 
